@@ -53,6 +53,7 @@ function Paddle(x, y, width, height) {
     };
     this.move = function(keyCode) {
         let nextY = this.y;
+        
         if (keyCode == 80) { 
             nextY += -2.5;
             this.ballSpeedIncrease = 1.5;
